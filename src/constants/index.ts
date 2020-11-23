@@ -3,7 +3,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 //修改成你的路由合约地址
-export const ROUTER_ADDRESS = '0x674203c3ca7f07f69c591a3e51b3ddbfa9c54b7c'
+export const ROUTER_ADDRESS = '0xcb7bc1899e76074db56c9561260a7dec692d8748'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
