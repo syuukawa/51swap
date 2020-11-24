@@ -2,8 +2,8 @@ import { ChainId, JSBI, Percent, Token, WETH } from '@uniswap/sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
-//修改成你的路由合约地址
-export const ROUTER_ADDRESS = '0xcb7bc1899e76074db56c9561260a7dec692d8748'
+//1.修改成你的路由合约地址
+export const ROUTER_ADDRESS = '0xbb4f55382b94bc3df2b1220afdd06ff2b5bff132'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
@@ -29,6 +29,7 @@ export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F'
 
 export const TIMELOCK_ADDRESS = '0x1a9C8182C09F50C8318d769245beA52c32BE35BC'
 
+// UNI Address ??????
 const UNI_ADDRESS = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
 export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.MAINNET]: new Token(ChainId.MAINNET, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
